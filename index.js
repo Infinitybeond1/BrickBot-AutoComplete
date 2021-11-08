@@ -14,6 +14,8 @@ const client = new Client({
     partials: ["MESSAGE", "CHANNEL", "REACTION"],
     intents: 32767,
 });
+
+
 module.exports = client;
 
 const config = require("./settings/config.json");
